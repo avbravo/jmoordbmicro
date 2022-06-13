@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.avbravo</groupId>
-    <artifactId>jmoordb</artifactId>
+    <artifactId>jmoordbmicro</artifactId>
     <version>0.1</version>
     <packaging>ejb</packaging>
 
