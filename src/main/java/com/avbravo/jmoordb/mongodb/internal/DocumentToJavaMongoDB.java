@@ -9,7 +9,6 @@ import com.avbravo.jmoordb.EmbeddedModel;
 import com.avbravo.jmoordb.JmoordbException;
 import com.avbravo.jmoordb.MicroservicesModel;
 import com.avbravo.jmoordb.ReferencedModel;
-import com.avbravo.jmoordb.anotations.Microservices;
 import com.avbravo.jmoordb.util.Analizador;
 import com.avbravo.jmoordb.util.ClassDescriptor;
 import com.avbravo.jmoordb.util.ClassDescriptorsCache;
@@ -27,10 +26,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.logging.Logger;
-import javax.enterprise.context.spi.CreationalContext;
-import javax.enterprise.inject.spi.Bean;
-import javax.enterprise.inject.spi.BeanManager;
-import javax.enterprise.inject.spi.CDI;
+import jakarta.enterprise.context.spi.CreationalContext;
+import jakarta.enterprise.inject.spi.Bean;
+import jakarta.enterprise.inject.spi.BeanManager;
+import jakarta.enterprise.inject.spi.CDI;
 import org.bson.Document;
 
 /**
@@ -580,7 +579,7 @@ public class DocumentToJavaMongoDB<T> {
 //        ServletContext servletContext = (ServletContext) FacesContext
 //                .getCurrentInstance().getExternalContext().getContext();
 //        return (BeanManager) servletContext
-//                .getAttribute("javax.enterprise.inject.spi.BeanManager");
+//                .getAttribute("jakarta.enterprise.inject.spi.BeanManager");
 //    }
     // <editor-fold defaultstate="collapsed" desc="Boolean isEmbedded(String name)">    
     private Boolean isEmbedded(String name) {

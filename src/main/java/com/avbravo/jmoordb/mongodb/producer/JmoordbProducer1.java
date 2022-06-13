@@ -7,7 +7,7 @@ package com.avbravo.jmoordb.mongodb.producer;
 
 import jakarta.ejb.ConcurrencyManagement;
 import jakarta.ejb.ConcurrencyManagementType;
-import javax.inject.Singleton;
+import jakarta.ejb.Singleton;
 
 /**
  *
